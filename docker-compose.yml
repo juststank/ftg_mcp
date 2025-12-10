@@ -8,7 +8,7 @@ services:
     ports:
       - "8814:8814"
     volumes:
-      # Mount configuration file (required)a
+      # Mount configuration file (required)
       - ./config/config.json:/app/config/config.json:ro
       
       # Mount logs directory
